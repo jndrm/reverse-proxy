@@ -1,8 +1,7 @@
 # reverse-proxy
 A TCP based reverse-proxy written with Typescript supporting both HTTP and HTTPS.
 
-## Purpos
-The main purpos of this project is to mapping your IPv6 address to an IPv4 based server. 
+The purpos of this project is to map your IPv6 address to an IPv4 based server. 
 It can help you passing Apple Store's IPv6 only network rule.
 
 ## Usage
