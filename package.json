@@ -1,0 +1,24 @@
+{
+  "name": "reverse-proxy",
+  "version": "1.0.0",
+  "description": "A reverse-proxy written with Typescript",
+  "main": "./dist/main.js",
+  "scripts": {
+    "build": "tsc && npm run lint",
+    "dev": "tsc && sudo node ./index.js",
+    "start": "node ./index.js",
+    "lint": "tslint -c tslint.json -p tsconfig.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["reverse-proxy", "ipv6"],
+  "author": "yueyu",
+  "dependencies": {
+    "lodash": "^4.17.5"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.104",
+    "@types/node": "^9.4.6",
+    "tslint": "^5.9.1",
+    "typescript": "^2.7.2"
+  }
+}

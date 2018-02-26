@@ -1,0 +1,20 @@
+{
+  "extends": "tslint:recommended",
+  "rules": {
+    "max-line-length": {
+      "options": [
+        120
+      ]
+    },
+    "semicolon": {
+      "options": ["never"]
+    }
+  },
+  "jsRules": {
+    "max-line-length": {
+      "options": [
+        120
+      ]
+    }
+  }
+}
